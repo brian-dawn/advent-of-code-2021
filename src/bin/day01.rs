@@ -7,7 +7,7 @@ use anyhow::Result;
 use itertools::Itertools;
 
 fn read_input() -> Result<Vec<i32>> {
-    let input = File::open("input/day1.txt")?;
+    let input = File::open("input/day01.txt")?;
     let buffered = BufReader::new(input);
 
     buffered
